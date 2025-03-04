@@ -3,10 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My personal website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Peter Bwire</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/ThePeterBwire" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i> 
+            <span>Github</span>
+            </a>
+         
+
+        
+            <a href="https://www.linkedin.com/in/peterbwirea" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i> 
+            <span>LinkedIn</span>
+            </a>
+        
+        
+        
+            <a href="mailto:peterbwirea@gmail.com">
+            <i class="fa-solid fa-envelope"></i> 
+            <span>Gmail</span>
+            </a>
+        </div>        
+    </nav>
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Peter 👋</h2>
+                <p>I am Peter Bwire, a passionate software engineering student at Moringa School with a background in IT and technical support. I have experience in sales and marketing and a strong interest in coding, networking, and problem-solving. I am eager to build innovative solutions and continuously expand my technical expertise.</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="/images/hero-headshot.webp" alt="Peter Bwire headshot">
+            </div>            
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I have a growing proficiency in software development and am acquainted with technologies such as HTML, CSS, JavaScript, Node.js, and React.js. Additionally, I have experience in IT support, networking, and problem-solving, with a strong eagerness to learn and expand my expertise in modern web development.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="./images/html-logo.webp" alt="html logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/css-logo.webp" alt="css logo">
+                    <span>CSS</span>
+                </div>
+               
+                <div class="cell">
+                    <img src="./images/javascript-logo.webp" alt="javascript logo">
+                    <span>Javascript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/node-logo.webp" alt="node logo">
+                    <span>Node.js</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./images/react-logo.webp" alt="react logo">
+                    <span>React.js</span>
+                </div>                
+            </div>
+        </section>
+
+        <!-- SECTION 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="images/testimony-headshot.webp" alt="">
+                    <p>John Doe</p>
+                    <p> CEO at Tech Solutions</p>
+                </div>
+
+                <div class="text">
+                    "Working with Peter was a fantastic experience. His dedication, problem-solving skills, and keen attention to detail made a huge difference in our project. He was proactive, eager to learn, and delivered excellent results. I highly recommend him for any web development or IT-related projects."
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">Have a project in mind or just want to connect? Feel free to reach out! Use the contact form to send me a message, and I'll get back to you as soon as possible. You can also find my LinkedIn, GitHub, and email in the navigation bar above.</div>
+
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea  id="message" cols="30" rows="10"></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>

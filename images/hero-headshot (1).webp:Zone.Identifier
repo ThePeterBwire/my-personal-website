@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/8ac8922d-5058-4687-be00-811a2fcded36/hero-headshot.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20250303%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20250303T152636Z&X-Amz-Expires=86400&X-Amz-Signature=8c691e7d8761c98ff2005c949929fd41d17377f3985cd0e0250a4bbe40621064&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22hero-headshot.webp%22&response-content-type=image%2Fwebp&x-id=GetObject
